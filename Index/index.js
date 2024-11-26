@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
             document.getElementById("preloader").style.display = "none"; 
             document.getElementById("c_all").style.display = "flex";
         }, 1000);
-    }, 10); //6000
+    }, 4000); //6000
 });
 
 // Escritura del loader
