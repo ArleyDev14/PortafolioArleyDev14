@@ -848,4 +848,14 @@ footer form{
     footer h1{
         font-size:8vw;
     }
+
+    .cajas_inputs{
+        width:60vw;
+        font-size: 3vw;
+    }
+
+    .cajas_inputs input{
+        font-size:3vw;
+        width:12vw;
+    }
 }
