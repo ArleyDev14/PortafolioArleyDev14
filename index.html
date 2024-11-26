@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="librerias/particulas/particulas.js"></script>
+    <script defer src="librerias/particulas/particulas2.js"></script>
+    <script defer src="librerias/typed/typed.js"></script>
+    <script defer src="Index/index.js"></script>
+
+    <link rel="stylesheet" href="Index/index.css">
+    <link rel="shortcut icon" href="Multimedia/Logos/logo.ico" type="image/x-icon">
+
+    <title>ArleyDev14</title>
+</head>
+<body>
+    <!-- Contenedor de particulas de fondo -->
+    <div id="particles-js"></div>
+
+    <!-- Contenedor del loader (Terminal bienvenida) -->
+    <section id="preloader">
+
+        <section id="loader">
+
+            <div class="topbar">
+                <i>Maquina ArleyDev14</i>
+                <div class="botones">
+                    <button class="b_rojo"></button>
+                    <button class="b_verde"></button>
+                    <button class="b_amarillo"></button>
+                </div>
+            </div>
+            <div class="bottombar">
+                <i class="c_verde">arleydev14@ArleyDev14</i>
+                <i class="c_morado">:~$</i>
+                <span class="typed"></span>
+            </div>
+
+        </section>
+
+    </section>
+
+    <!-- Contenedor de todo el contenido de la pagina -->
+    <div id="c_all" style="display: none;">
+
+        <!-- Header (Imagen y botones) -->
+        <header>
+
+            <section id="h_img">
+
+                <!-- Imagen_Texto -->
+                <div>
+                    <img src="Multimedia/Logos/ad.png" alt="LogoArleyDev14">
+                    <h1>Backend Developer</h1>
+                </div>
+                
+                <!-- Botones -->
+                <nav>
+                    <!-- <a id="b_sobremi" class="btn" href="#">Sobre mi</a> -->
+                    <a class="btn" href="#s_projects">Proyectos</a>
+                    <a class="btn" href="#">Contacto</a>
+                </nav>
+
+            </section>
+            
+        </header>
+
+        <!-- Botones Mision_Vision -->
+        <div id="s_mivi">
+            <a id="b_mision" class="btn">Misión</a>
+            <a id="b_vision" class="btn">Visión</a>
+        </div>
+
+        <!-- Titulo _ Parrafo informacion -->
+        <main id="e_main">
+            <section id="about_me">
+                
+                <section id="text_about">
+                    
+                    <!-- Titulo_Parrafo -->
+                     <div>
+                        <h2 id="t_about">Hola, soy Arley Mantilla🧑🏻‍💻</h2>
+                        <p id="p_about">Habilidades como <span class="habilidades"></span> <br>me caracterizan en mi ámbito
+                            laboral. Desarrollo constantemente la capacidad de conocer e innovar, es por esto que me centro en el campo
+                            del
+                            desarrollo de software. Mi objetivo profesional se centra en contribuir a la innovación tecnológica y al
+                            desarrollo
+                            social.</p>
+                    </div>
+                    
+                    <!-- Imagenes Lenguajes -->
+                    <section id="c_lenguajes">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/java.png" alt="Logo Java">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/Js.png" alt="Logo JavaScript">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/react.png" alt="Logo React">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/node.png" alt="Logo Node.js">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/post.png" alt="Logo PostGreeSql">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/mysql.png" alt="Logo MySQL">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/python.png" alt="Logo Python">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/html.png" alt="Logo Html">
+                            <img class="lenguaje_p" src="Multimedia/Lenguajes/css.png" alt="Logo Css">
+                    </section>
+                </section>
+                
+                <!-- Imagen mia -->
+                <img id="about_img" src="Multimedia/Logos/yo.jpg" alt="Foto_Arley_Mantilla">
+
+            </section>
+        </main>
+
+        <!-- Proyectos -->
+        <section id="s_projects">
+
+            <!-- Titulo -->
+            <h1>Proyectos </h1>
+
+            <section id="s_cards">
+
+                <!-- Cada tarjeta -->
+                <div class="card">
+                    <div class="face front">
+                        <img src="Multimedia/Banners/ManageTask.png" alt="p1">
+                        <h1>ManageTask</h1>
+                    </div>
+                    <div class="face back">
+                        <h2>ManageTask</h2>
+                        <p> Controlador de procesos, construido con Html, Css, JavaSCript junto con la herramienta MockApi, permite llevar el control y registro de procesos como ver peliculas, leer libros entre otros. </p>
+                        <div>
+                            <a target="_blank" href="https://github.com/ArleyDev14/ManageTask.git">Ver en github</a>
+                            <img src="Multimedia/Otros/github.png" alt="Logo GitHub">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="face front">
+                        <img src="Multimedia/Banners/software_py.png" alt="p1">
+                        <h1>Software Python</h1>
+                    </div>
+                    <div class="face back">
+                        <h2>Software Python</h2>
+                        <p> Software totalmente funcional para el registro, actualizacion y eliminación de usuarios en una empresa de telecomunicaciones. Este software fue realizado totalmente en Python, usando archivos JSon para el almacenamiento y permanencia de datos </p>
+                        <div>
+                            <a target="_blank" href="https://github.com/ArleyDev14/Software_Project-Python-.git">Ver en github</a>
+                            <img src="Multimedia/Otros/github.png" alt="Logo GitHub">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="face front">
+                        <img src="Multimedia/Banners/JincaDB.png" alt="p1">
+                        <h1>JincaDB</h1>
+                    </div>
+                    <div class="face back">
+                        <h2>JincaDB</h2>
+                        <p>Base de datos totalmente funcional, enfocada en la gestión de datos de finca agrícola. Se usó unicamente MySQL para hacer la creació de tablas, inserciones, consultas, funciones, triggers, eventos, procedimientos y asignación de permisos a usuarios.</p>
+                        <div>
+                            <a target="_blank" href="https://github.com/ArleyDev14/JIncaDB_Project_MYSQL2.git">Ver en github</a>
+                            <img src="Multimedia/Otros/github.png" alt="Logo GitHub">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+        <!-- Estudios -->
+         <section id="s_estudios">
+
+            <!-- Apartado_Formación -->
+            <section id="s_formacion">
+                <h1>Formación</h1>
+                <!-- Lista de formacion -->
+                <section id="l_formacion">
+                    <!-- Cada formacion -->
+                    <div class="cada_formacion">
+                        <div>
+                            <h2>Desarrolador de software</h2>
+                            <h3>CampusLands</h3>
+                            <h4>Floridablanca 2024</h4>
+                        </div>
+                        <img src="Multimedia/Logos/Campus.png" alt="CampusLands">
+                    </div>
+
+
+                    <div class="cada_formacion">
+                        <div>
+                            <h2>Técnico en sistemas</h2>
+                            <h3>Sena</h3>
+                            <h4>Girón 2023</h4>
+                        </div>
+                        <img src="Multimedia/Logos/sena.png" alt="Sena">
+                    </div>
+
+
+                </section>
+            
+            </section>
+
+            <!-- Apartado_Certificación -->
+            <section id="s_certificados">
+                <h1>Certificados</h1>
+                <!-- Lista certificados -->
+                <section id="l_certificados">
+
+                    <div class="cada_certificado">
+                        <div>
+                            <h2>Learn HTML and CSS from Beginning to Advanced</h2>
+                            <h3>Udemy</h3>
+                            <h4>Online 2024</h4>
+                        </div>
+                        <img src="Multimedia/Logos/udemy.png" alt="Logo Udemy">
+                    </div>
+
+                </section>
+            
+            </section>
+
+         </section>
+        
+         <!-- Contacto -->
+          <footer>
+            <h1>Contactame</h1>
+            <form action="https://formsubmit.co/osmane17.ma@gmail.com" method="POST">
+                <!-- Cada Input -->
+                <div id="input_nombre" class="cajas_inputs">
+                    <span class="user">User</span>
+                    <span class="vm">@ArleyDev14</span>:
+                    <span class="a~">~</span> <span class="a$">$</span>
+                    <span><input class="inputs" type="text" placeholder="Nombre" name="Nombre" required></span>
+                </div>
+
+
+                <div id="input_nombre" class="cajas_inputs">
+                    <span class="user">User</span>
+                    <span class="vm">@ArleyDev14</span>:
+                    <span class="a~">~</span> <span class="a$">$</span>
+                    <span><input class="inputs" type="text" placeholder="Correo" required></span>
+                </div>
+
+
+                <div id="input_nombre" class="cajas_inputs">
+                    <span class="user">User</span>
+                    <span class="vm">@ArleyDev14</span>:
+                    <span class="a~">~</span> <span class="a$">$</span>
+                    <span><input class="inputs" type="text" placeholder="Asunto" required></span>
+                </div>
+
+                <button type="submit" class="btn">Envíar</button>
+
+            </form>
+          </footer>
+
+
+    </div>
+</body>
+</html>
