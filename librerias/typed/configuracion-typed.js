@@ -16,5 +16,5 @@ var typed = new Typed('.typed', {
 	loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
 	showCursor: true, // Mostrar cursor palpitanto
 	cursorChar: '|', // Caracter para el cursor
-	contentType: 'html', // 'html' o 'null' para texto sin formato
+	contentType: 'html', // 'html' o 'null' para texto sin formatos
 });
